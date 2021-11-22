@@ -1,0 +1,29 @@
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 340px;
+    gap: 10px;
+    color: #888;
+}
+
+footer div {
+    width: 90vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    font-size: 0.7rem;
+}
+
+footer div a {
+    color: inherit;
+}
+
+@media (min-height: 650px) {
+    footer {
+        height: auto;
+    }
+}

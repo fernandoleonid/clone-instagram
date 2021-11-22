@@ -1,0 +1,16 @@
+.logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 100px;
+}
+
+.logo-image {
+    width: 175px;
+}
+
+@media (min-height: 650px) {
+    .logo-container {
+        align-items: flex-start;
+    }
+}

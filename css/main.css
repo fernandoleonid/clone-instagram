@@ -1,0 +1,36 @@
+.instagram {
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.frame {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media (min-width: 450px) {
+    main {
+        justify-content: center;
+    }
+    .frame {
+        width: 360px;
+        padding: 30px 0px;
+        border: 2px solid #ddd;
+    }
+}
+
+@media (min-width: 875px) {
+    main {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+    .instagram {
+        justify-content: center;
+        gap: 10px;
+    }
+}

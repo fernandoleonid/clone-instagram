@@ -1,0 +1,18 @@
+.sign-up {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    height: 100px;
+    font-size: 0.9rem;
+}
+.sign-up a {
+    color: var(--link-color);
+    font-weight: 600;
+}
+
+@media (min-width: 450px) {
+    .sign-up {
+        height: auto;
+    }
+}

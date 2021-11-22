@@ -1,0 +1,42 @@
+.iphone {
+    display: none;
+}
+
+@media (min-width: 875px) {
+    .iphone {
+        display: block;
+        position: relative;
+    }
+    .iphone img {
+        height: 618px;
+    }
+    .slider {
+        position: absolute;
+        top: 90px;
+        left: 117px;
+        width: 253px;
+        height: 450px;
+        animation: slider 5s linear infinite;
+    }
+
+    @keyframes slider {
+        0% {
+            background-image: url(../images/img01.jpg);
+        }
+        20% {
+            background-image: url(../images/img02.jpg);
+        }
+        40% {
+            background-image: url(../images/img03.jpg);
+        }
+        60% {
+            background-image: url(../images/img04.jpg);
+        }
+        80% {
+            background-image: url(../images/img05.jpg);
+        }
+        100% {
+            background-image: url(../images/img01.jpg);
+        }
+    }
+}
