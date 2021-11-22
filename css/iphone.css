@@ -16,7 +16,7 @@
         left: 117px;
         width: 253px;
         height: 450px;
-        animation: slider 5s linear infinite;
+        animation: slider 8s linear infinite;
     }
 
     @keyframes slider {
